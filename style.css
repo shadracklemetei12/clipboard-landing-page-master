@@ -4,6 +4,7 @@
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 100px;
     margin: 100px;
     margin-left: 0%;
@@ -21,6 +22,7 @@ p {
 .footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: rgba(248, 245, 245, 0.776);
     gap: 100px;
     list-style-type: none;
@@ -126,6 +128,7 @@ margin: 100px;}
 .logos{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
     gap: 80px;
@@ -139,7 +142,7 @@ margin: 100px;}
 }
 
 .btn-ios{
-        background-color: rgb(5, 229, 199);
+    background-color: rgb(5, 229, 199);
     padding: 10px;
     border-radius: 20px;
     padding-left: 20px;
@@ -149,7 +152,7 @@ margin: 100px;}
 
 }
 .btn-mac{
-        background-color: rgb(0, 179, 255);
+    background-color: rgb(0, 179, 255);
     padding: 10px;
     border-radius: 20px;
     padding-left: 20px;
@@ -180,3 +183,9 @@ margin: 100px;}
     opacity: 0.8;
     cursor: pointer;
 }
+@media screen (max-width: 720px) {
+    .computer{width: 100%;
+    height: auto;}
+
+}
+    
